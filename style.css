@@ -1,0 +1,305 @@
+html,body{
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar a {
+    color: orange;
+    background-color: transparent !important;
+    margin-bottom: 20px;
+    
+}
+
+.navbar a:hover {
+    color: white;
+}
+.header-container h1{
+    color: gold;
+    font-style: italic;
+    font-weight: 30px;
+}
+
+
+.container .headerbawah{
+    color: gold;
+    position: relative;
+    font-size: 40px;
+}
+.container p{
+   color: white;
+   font-size: 20px;
+}
+
+.container img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: -200px;
+}
+.container .btn{
+    margin-bottom: 300px;
+}
+.container .btn a{
+    text-decoration: none;
+    color: white;
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    margin-left: 620px;
+    font-size: 30px;
+}
+.about p{
+    font-size: 14px;
+    font-family: arial;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container .headerbawah,
+    .container p,
+    .container .btn {
+        position: relative;
+        z-index: 1;
+    }
+    .container img {
+        position: absolute;
+        z-index: 0;
+    }
+    .about a{
+       margin-left: 200px;
+    }
+}
+
+ /* Menu Page */
+ 
+#menu h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: -29px;
+}
+
+
+.menukopi{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.kopiespresso{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.kopiespresso img{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.kopiespresso a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.kopiespresso  a:hover{
+    color: gold;
+}
+
+
+.icedamericano{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icedamericano a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  
+}
+.icedamericano a:hover{
+    color: gold;
+}
+.icedamericano img{
+    width: 200px;
+    height: 200px;
+}
+
+.latte{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    align-items: center;
+}
+.latte img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.latte a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.latte a:hover{
+    color: gold;
+}
+
+.mocha{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.mocha img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.mocha a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.mocha a:hover{
+    color: gold;
+}
+@media screen and (max-width: 768px) {
+    .latte{
+        margin-top: 20px;
+    }
+}
+
+.menu h1{
+    font-size: 30px;
+   text-align: center;
+   color: white;
+}
+.menumakan{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.burger img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.burger a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.burger a:hover{
+    color: gold;
+}
+.pasta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pasta a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  
+}
+.pasta a:hover{
+    color: gold;
+}
+.pasta img{
+    width: 200px;
+    height: 200px;
+}
+
+.waffle{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    align-items: center;
+}
+
+.waffle img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.waffle a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.waffle a:hover{
+    color: gold;
+}
+
+.sandwhich{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.sandwhich img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.sandwhich a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sandwhich a:hover{
+    color: gold;
+}
+
+@media screen and (max-width: 768px) {
+    .waffle, .snadwhich{
+        margin-top: 20px;
+    }
+}
+
+.contact-container a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: gold;
+}
+.contact-container .instagram{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container a {
+        display: flex;
+        justify-content: center; 
+    }
+
+
+};
